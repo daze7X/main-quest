@@ -3,13 +3,13 @@ const delay = (ms) => {
 }
 
 const satuedit = async () => {
-    console.log("hallo saya satu edit");
-    await delay(3000); 
+    setTimeout(()=>console.log("hallo saya satu edit"), 3000);
+ 
 }
 
 const duaedit = async () => {
-    console.log("hallo saya dua edit");
-    await delay(2000); 
+    setTimeout(()=>console.log("hallo saya dua edit"),2000);
+     
 }
 
 const tigaedit = () => {
